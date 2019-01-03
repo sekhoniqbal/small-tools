@@ -3,7 +3,7 @@
 //draggable(domElement); as simple as that
 // function currently does not change the z index of the element which means
 // element can be accidently put behind other elements.
-  <script>
+
 function draggable(win){
   obj ={};
   win.style.position = "relative";
@@ -30,4 +30,4 @@ function draggable(win){
    console.log(win.style.top+" "+win.style.left)
   }
 }
-  </script>
+
